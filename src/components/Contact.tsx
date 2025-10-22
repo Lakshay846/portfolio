@@ -7,27 +7,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "contact@example.com",
-      href: "mailto:contact@example.com",
+      value: "lakshaykumar0906@gmail.com",
+      href: "mailto:lakshaykumar0906@gmail.com",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/username",
+      value: "github.com/Lakshay846",
       href: "https://github.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/username",
+      value: "linkedin.com/in/lakshaykumar846",
       href: "https://linkedin.com",
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      value: "@username",
-      href: "https://twitter.com",
-    },
+    }
   ];
 
   return (
