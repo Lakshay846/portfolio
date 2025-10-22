@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
@@ -52,6 +52,12 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            <Button variant="outline" size="sm" asChild>
+              <a href="/resume.pdf" download className="gap-2">
+                <Download className="w-4 h-4" />
+                Resume
+              </a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,6 +83,12 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            <Button variant="outline" size="sm" asChild className="w-full mt-4">
+              <a href="/resume.pdf" download className="gap-2">
+                <Download className="w-4 h-4" />
+                Download Resume
+              </a>
+            </Button>
           </div>
         )}
       </div>
