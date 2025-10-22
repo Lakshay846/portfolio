@@ -53,7 +53,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button variant="outline" size="sm" asChild>
-              <a href="/resume.pdf" download className="gap-2">
+              <a href="/Lakshay_Resume.pdf" download className="gap-2">
                 <Download className="w-4 h-4" />
                 Resume
               </a>
