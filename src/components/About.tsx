@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   const skills = [
-    "React", "TypeScript", "Next.js", "Vue.js",
+    "React", "TypeScript", "JavaScript", "Redux", "HTML", "CSS",
     "Tailwind CSS", "Node.js", "GraphQL", "REST APIs",
     "Git", "CI/CD", "Testing", "Accessibility"
   ];
@@ -39,7 +39,7 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">About Me</h2>
             <div className="w-20 h-1 bg-gradient-accent mx-auto mb-8"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Senior frontend developer with 8+ years of experience building beautiful, 
+              Senior frontend developer with 5+ years of experience building beautiful, 
               performant web applications. Passionate about creating intuitive user experiences 
               and writing clean, maintainable code.
             </p>

@@ -38,7 +38,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent"
           >
-            Portfolio
+            Lakshay Kumar
           </button>
 
           {/* Desktop Navigation */}
@@ -84,7 +84,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button variant="outline" size="sm" asChild className="w-full mt-4">
-              <a href="/resume.pdf" download className="gap-2">
+              <a href="/Lakshay_Resume.pdf" download className="gap-2">
                 <Download className="w-4 h-4" />
                 Download Resume
               </a>
